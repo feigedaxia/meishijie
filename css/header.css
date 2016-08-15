@@ -1,0 +1,118 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+
+/*头部样式*/
+
+header {
+	height: 130px;
+	background-color: #A8000F;
+	width: 100%;
+	position: relative;
+}
+
+#headerlog {
+	width: 184px;
+	height: 129px;
+	background: url(../img/jiankang/logo2.png) -15px 9px no-repeat;
+	float: left;
+	margin-left: 182px;
+}
+
+#main_search {
+	width: 430px;
+	height: 129px;
+	/*background-color: blueviolet;*/
+	margin-left: 433px;
+}
+
+#main_search>p {
+	width: 430px;
+	height: 37px;
+	background-color: white;
+	border-radius: 5px;
+	position: absolute;
+	top: 46px;
+	padding: 2px;
+}
+
+#main_search>p>.search {
+	width: 346px;
+	height: 18px;
+	margin-top: 7px;
+	border: 0px;
+	float: left;
+}
+
+#main_search>p>.searchbutton {
+	width: 80px;
+	height: 33px;
+	color: white;
+	border: 0px;
+	background-color: #A8000F;
+	border-radius: 2px;
+	font-size: 14px;
+}
+
+#logitem {
+	width: 266px;
+	height: 129px;
+	float: right;
+	position: absolute;
+	top: 0px;
+	left: 907px;
+}
+
+ul {
+	list-style-type: none;
+}
+
+#logitem>ul {
+	margin-top: 46px;
+	font-size: 13px;
+	color: white;
+}
+
+#logitem>ul>li {
+	float: left;
+	height: 28px;
+	color: white;
+}
+
+#logitem>ul>li:hover {
+	background-color: #77000A;
+	border-radius: 5px;
+	text-decoration: underline;
+}
+
+#logitem>ul>li>a {
+	color: white;
+}
+
+a {
+	text-decoration: none;
+}
+
+#li1 {
+	width: 86px;
+	padding-left: 29px;
+	padding-top: 5px;
+	background: url(../img/jiankang/topdsflogin_icon.gif) no-repeat;
+}
+
+#li2 {
+	width: 86px;
+	padding-left: 32px;
+	padding-top: 5px;
+	background: url(../img/jiankang/topdsflogin_icon.gif) 0px -27px no-repeat;
+}
+
+.li3 {
+	width: 44px;
+	padding-top: 5px;
+	text-align: center;
+	font-size: 12px;
+}

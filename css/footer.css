@@ -1,0 +1,136 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+footer {
+	padding-top: 10px;
+	width: 100%;
+	height: 340px;
+	border: 1px solid;
+	background-color: #3F3A32;
+}
+
+.footer_border {
+	margin: 0px auto;
+	width: 992px;
+	height: 200px;
+	overflow: hidden;
+}
+
+.footer_left {
+	width: 510px;
+	height: 200px;
+	float: left;
+	color: #FFFFFF;
+}
+
+.footer_left p {
+	height: 27px;
+	font-size: 14px;
+	line-height: 27px;
+}
+
+.footer_left p span {
+	color: #FF3332;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+#footer_right {
+	width: 480px;
+	height: 200px;
+	float: left;
+}
+
+#footer_right #footer_right_div1 div {
+	width: 105px;
+	height: 105px;
+	float: right;
+	margin-left: 7px;
+	margin-right: 7px;
+	margin-top: 20px;
+	background-image: url(../img/jiankang/footerlinks.png);
+}
+
+#footer_right #footer_right_div2 div {
+	width: 105px;
+	height: 50px;
+	float: right;
+	margin-left: 5px;
+	margin-right: 5px;
+	margin-top: 5px;
+	text-align: center;
+}
+
+#footer_right #footer_right_div2 div a {
+	color: #999999;
+	font-size: 12px;
+	line-height: 20px;
+	text-decoration: none;
+}
+
+#footer_right #footer_right_div2 div a:hover {
+	color: #FFFFFF;
+	font-size: 12px;
+	line-height: 20px;
+	text-decoration: underline;
+}
+
+#footer_bottom {
+	margin: 0px auto;
+	width: 992px;
+	height: 138px;
+	border-top: 1px solid #555555;
+	text-align: center;
+}
+
+#footer_bottom div a {
+	color: #999999;
+	font-size: 12px;
+	line-height: 20px;
+	text-decoration: none;
+	margin: 5px;
+	padding: 5px;
+}
+
+#footer_bottom div a:hover {
+	color: #FFFFFF;
+	background-color: #FF3332;
+	font-size: 12px;
+	line-height: 20px;
+	text-decoration: none;
+	margin: 5px;
+}
+
+#footer_bottom div {
+	margin-top: 10px;
+}
+
+#footer_bottom p {
+	color: #999999;
+	font-size: 12px;
+	line-height: 20px;
+	margin-top: 10px;
+}
+
+#footer_sp1 {
+	font-size: 13px;
+	position: relative;
+	bottom: 80px;
+	left: 50px;
+	width: 200px;
+	text-align: center;
+	color: #FFFFFF;
+}
+
+#footer_sp2 {
+	font-size: 13px;
+	position: relative;
+	bottom: 80px;
+	left: 90px;
+	width: 105px;
+	text-align: center;
+	color: #FFFFFF;
+}

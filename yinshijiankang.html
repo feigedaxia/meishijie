@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+			* {
+				margin: 0px;
+				padding: 0px;
+				box-sizing: border-box;
+			}
+			
+			article {
+				width: 100%;
+				height: 500px;
+				background-color: #FAE8C8;
+			}
+			
+			#article_div1 {
+				width: 990px;
+				margin: 0px auto;
+				height: 120px;
+				text-align: center;
+			}
+			
+			#article_div1 a {
+				text-decoration: none;
+				line-height: 120px;
+				color: #222222;
+				font-size: 23px;
+				font-weight: 500;
+			}
+			
+			#article_div1 a:hover {
+				text-decoration: underline;
+				line-height: 120px;
+				color: #222222;
+				font-size: 23px;
+				font-weight: 500;
+			}
+			
+			#article_div1 ul {
+				list-style-type: none;
+				width: 990px;
+				height: 50px;
+				background-color: #FDF4E4;
+				font-weight: 600;
+			}
+			
+			#article_div1 ul li a {
+				padding: 11px 24px;
+				font-size: 16px;
+				line-height: 50px;
+			}
+			
+			#article_div1 ul li a:hover {
+				font-size: 16px;
+				line-height: 50px;
+				color: #FF3232;
+				text-decoration: none;
+			}
+			
+			#article_div1 ul li {
+				float: left;
+				height: 50px;
+			}
+			
+			#article_div1 ul li:hover {
+				background-color: #FEFAF2;
+			}
+			
+			#yinshi {
+				margin: 0px auto;
+				width: 990px;
+				height: 190px;
+				background-color: #FFFFFF;
+			}
+			
+			#yinshi_div1 {
+				float: left;
+				width: 210px;
+				height: 95px;
+				border-bottom: 1px solid #EEEEEE;
+				border-right: 1px solid #EEEEEE;
+			}
+			
+			#yinshi_div1 ul li {
+				list-style-type: none;
+				height: 30px;
+				border: 1px solid;
+				margin: 3px;
+				border: none;
+			}
+			
+			#yinshi_div1 p {
+				height: 42px;
+				line-height: 42px;
+				text-align: left;
+				padding-left: 20px;
+				font-size: 25px;
+			}
+			
+			#yinshi_div1 ul {
+				padding-left: 20px;
+				width: 190px;
+				background-color: #FFFFFF;
+				margin: 0px;
+			}
+			
+			#yinshi_div1 ul li:hover {
+				background-color: #FF3232;
+				color: #FFFFFF;
+			}
+			
+			#yinshi_div1 ul li a {
+				padding: 0px;
+				line-height: 30px;
+				padding: 4px;
+			}
+			
+			#yinshi_div1 ul li a:hover {
+				line-height: 30px;
+				padding: 4px;
+				color: #FFFFFF;
+			}
+			#yinshi_div2 {
+				float: left;
+				width: 570px;
+				height: 95px;
+				border-bottom: 1px solid #EEEEEE;
+				border-right: 1px solid #EEEEEE;
+			}
+			#yinshi_div2 ul {
+				
+				padding-left: 20px;
+				width: 550px;
+				background-color: #FFFFFF;
+				margin: 0px;
+			}
+			#yinshi_div2 p {
+				height: 42px;
+				line-height: 42px;
+				text-align: left;
+				padding-left: 20px;
+				font-size: 25px;
+			}
+			#yinshi_div2 ul li:hover {
+				background-color: #FF3232;
+				color: #FFFFFF;
+			}
+			#yinshi_div2 ul li a {
+				padding: 0px;
+				line-height: 30px;
+				padding: 4px;
+			}
+			#yinshi_div2 ul li a:hover {
+				line-height: 30px;
+				padding: 4px;
+				color: #FFFFFF;
+			}
+			#yinshi_div2 ul li {
+				list-style-type: none;
+				height: 30px;
+				border: 1px solid;
+				margin: 3px;
+				border: none;
+			}
+		</style>
+		<link rel="stylesheet" href="css/footer.css" />
+		<link rel="stylesheet" type="text/css" href="css/header.css" />
+		<script type="text/javascript">
+			window.onload = function() {
+				var footer_right = document.getElementById("footer_right_div1");
+				var divs = footer_right.getElementsByTagName("div");
+				for(var i = 0; i < divs.length; i++) {
+					var x = 105 * (i + 1) + "px";
+					var y = 105 + "px";
+					divs[i].style.backgroundPosition = x + " " + y;
+				}
+			}
+		</script>
+	</head>
+
+	<body>
+		<header>
+			<div id="headerlog"></div>
+			<div id="main_search">
+				<p>
+					<input type="text" placeholder="请输入菜谱/食材/菜单/作者" class="search" />
+					<input type="button" value="搜索" class="searchbutton" />
+				</p>
+			</div>
+			<div id="logitem">
+				<ul>
+					<li id="li1">
+						<a href="#">QQ登录</a>
+					</li>
+					<li id="li2">
+						<a href="#">微博登录</a>
+					</li>
+					<li class="li3">
+						<a href="#">注册</a>
+					</li>
+					<li class="li3">
+						<a href="#">登录</a>
+					</li>
+				</ul>
+			</div>
+		</header>
+		<article>
+			<div id="article_div1">
+				<a href="#">
+					<img src="img/jiankang/美食杰.png" align="absmiddle" /> 午时是养心的最佳时机，适宜静养，吃完后有条件可以午间小憩一 下。
+				</a>
+				<ul>
+					<li>
+						<a href="#">我的体质(未开放)</a>
+					</li>
+					<li>
+						<a href="#">饮食健康</a>
+					</li>
+					<li>
+						<a href="#">人群膳食</a>
+					</li>
+					<li>
+						<a href="#">疾病调理</a>
+					</li>
+					<li>
+						<a href="#">功能性调理</a>
+					</li>
+					<li>
+						<a href="#">脏腑调理</a>
+					</li>
+				</ul>
+				<div id="yinshi">
+					<div id="yinshi_div1">
+						<p>饮食资讯</p>
+						<ul>
+							<li>
+								<a href="#">新鲜资讯</a>
+							</li>
+							<li>
+								<a href="#">食品安全</a>
+							</li>
+						</ul>
+					</div>
+					<div id="yinshi_div2">
+						<p>饮食文化</p>
+						<ul>
+							<li>
+								<a href="#">美食典故</a>
+							</li>
+							<li>
+								<a href="#">茶文化</a>
+							</li>
+							<li>
+								<a href="#">外国餐饮文化</a>
+							</li>
+							<li>
+								<a href="#">酒文化</a>
+							</li>
+							<li>
+								<a href="#">中西餐礼仪</a>
+							</li>
+						</ul>
+					</div>
+					<div id="yinshi_div3"></div>
+					<div id="yinshi_div4"></div>
+				</div>
+			</div>
+
+		</article>
+		<footer>
+			<div class="footer_border">
+				<div class="footer_left">
+					<img src="img/jiankang/logo_f.png" />
+					<p> 中国，最大的菜谱库 <span>800,000 篇</span> </p>
+					<p> 每月，用户访问数量 <span>20,000,000 次</span> </p>
+					<p> 每年，菜谱被浏览量 <span>36,000,000,000 次</span> </p>
+					<p> 现在，这些数字还在不断的增长着，欢迎您来一起使用美食杰</span>
+					</p>
+				</div>
+				<div id="footer_right">
+					<div id="footer_right_div1">
+						<div></div>
+						<div></div>
+						<div></div>
+						<div></div>
+					</div>
+					<div id="footer_right_div2">
+						<div>
+							<a href="#">扫描二维码下载
+								<br />美食杰手机客户端
+							</a>
+
+						</div>
+						<div>
+							<a href="#">扫描二维码添加<br />美食杰为微信好友
+							</a>
+						</div>
+						<div>
+							<a href="#">点击进入<br /> 美食杰QQ空间
+							</a>
+						</div>
+						<div>
+							<a href="#">点击进入<br /> 美食杰官方微博
+							</a>
+						</div>
+						<span id="footer_sp1">关注：81万</span>
+						<span id="footer_sp2">关注：10.3万</span>
+					</div>
+				</div>
+			</div>
+			<div id="footer_bottom">
+				<div>
+					<a href="#">公司简介</a>
+					<a href="#">企业文化</a>
+					<a href="#">公司动态</a>
+					<a href="#">免责申明</a>
+					<a href="#">联系我们</a>
+					<a href="#">招贤纳士</a>
+					<a href="#">商务合作</a>
+					<a href="#">网站地图</a>
+					<a href="#">友情链接</a>
+					<a href="#">美食杰移动APP</a>
+				</div>
+				<p>京ICP证150335号/京公网安备11010802009977 Copyright © 2003-2016 MEISHIJ CO.,LTD.</p>
+
+			</div>
+		</footer>
+	</body>
+
+</html>

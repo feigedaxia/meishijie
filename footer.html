@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/footer.css"/>
+		<script type="text/javascript">
+			window.onload = function() {
+				var footer_right = document.getElementById("footer_right_div1");
+				var divs = footer_right.getElementsByTagName("div");
+				for(var i = 0; i < divs.length; i++) {
+					var x = 105 * (i + 1) + "px";
+					var y = 105 + "px";
+					divs[i].style.backgroundPosition = x + " " + y;
+				}
+			}
+		</script>
+	</head>
+
+	<body>
+		<footer>
+			<div class="footer_border">
+				<div class="footer_left">
+					<img src="img/jiankang/logo_f.png" />
+					<p> 中国，最大的菜谱库 <span>800,000 篇</span> </p>
+					<p> 每月，用户访问数量 <span>20,000,000 次</span> </p>
+					<p> 每年，菜谱被浏览量 <span>36,000,000,000 次</span> </p>
+					<p> 现在，这些数字还在不断的增长着，欢迎您来一起使用美食杰</span>
+					</p>
+				</div>
+				<div id="footer_right">
+					<div id="footer_right_div1">
+						<div></div>
+						<div></div>
+						<div></div>
+						<div></div>
+					</div>
+					<div id="footer_right_div2">
+						<div>
+							<a href="#">扫描二维码下载
+								<br />美食杰手机客户端
+							</a>
+							
+						</div>
+						<div>
+							<a href="#">扫描二维码添加<br />美食杰为微信好友
+							</a>
+						</div>
+						<div>
+							<a href="#">点击进入<br /> 美食杰QQ空间
+							</a>
+						</div>
+						<div>
+							<a href="#">点击进入<br /> 美食杰官方微博
+							</a>
+						</div>
+					</div>
+					<span id="footer_sp1">关注：81万</span>
+					<span id="footer_sp2">关注：10.3万</span>
+				</div>
+			</div>
+			<div id="footer_bottom">
+				<div>
+					<a href="#">公司简介</a>
+					<a href="#">企业文化</a>
+					<a href="#">公司动态</a>
+					<a href="#">免责申明</a>
+					<a href="#">联系我们</a>
+					<a href="#">招贤纳士</a>
+					<a href="#">商务合作</a>
+					<a href="#">网站地图</a>
+					<a href="#">友情链接</a>
+					<a href="#">美食杰移动APP</a>
+				</div>
+				<p>京ICP证150335号/京公网安备11010802009977 Copyright © 2003-2016 MEISHIJ CO.,LTD.</p>
+
+			</div>
+		</footer>
+
+	</body>
+
+</html>
